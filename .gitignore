@@ -1,0 +1,21 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+reference/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vercel/
+*.log
+
+# Local agent tooling and original reference documents
+.agents/
+.codex/
+skills-lock.json
+/BMC.jpeg
+/Borneo Nest Indonesia Template BPlan.docx
+/logo akrilik.png
+/logo jpg.jpg.jpeg
