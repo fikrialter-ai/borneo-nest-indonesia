@@ -154,6 +154,9 @@ export function Gallery() {
 }
 export function Contact() {
   const { t } = useText();
+  const mapLink = "https://maps.app.goo.gl/T27fcDkVPVW6nCbE8";
+  const address =
+    "RT.01, Desa Gulinggang, Kec. Juai, Kabupaten Balangan, Kalimantan Selatan 71665";
   const [params] = useSearchParams();
   const [prepared, setPrepared] = useState("");
   const types = [
@@ -208,13 +211,19 @@ export function Contact() {
             </span>
             <ArrowUpRight />
           </a>
-          <div className="contact-method">
+          <a
+            className="contact-method"
+            href={mapLink}
+            target="_blank"
+            rel="noreferrer"
+          >
             <MapPin size={28} />
             <span>
-              {t("Our origin", "Asal kami")}
-              <strong>Kalimantan, Indonesia</strong>
+              {t("Our location", "Lokasi kami")}
+              <strong>{address}</strong>
             </span>
-          </div>
+            <ArrowUpRight />
+          </a>
           <div className="contact-note">
             <h3>{t("Buying from overseas?", "Membeli dari luar negeri?")}</h3>
             <p>
@@ -323,22 +332,28 @@ export function Contact() {
         </form>
       </section>
       <section className="container map-section">
-        <div className="map-placeholder">
-          <MapPin size={38} weight="light" />
-          <h3>Kalimantan, Indonesia</h3>
-          <p>
-            {t(
-              "Google Maps location will be added after our public business address is confirmed.",
-              "Lokasi Google Maps akan ditambahkan setelah alamat publik perusahaan dikonfirmasi.",
+        <div className="map-location">
+          <h3>PT Borneo Nest Indonesia</h3>
+          <p>{address}</p>
+          <iframe
+            title={t(
+              "Map of PT Borneo Nest Indonesia",
+              "Peta lokasi PT Borneo Nest Indonesia",
             )}
-          </p>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.3280873085114!2d115.5637384!3d-2.3428313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de551005cb42659%3A0x1a0d6e288709af5!2sPT%20Borneo%20Nest%20Indonesia!5e1!3m2!1sid!2sid!4v1791032456550!5m2!1sid!2sid"
+            width="600"
+            height="360"
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="strict-origin-when-cross-origin"
+          />
           <a
             className="text-link"
-            href={`${wa}?text=${encodeURIComponent("Hello Borneo Nest Indonesia, may I request your business location?")}`}
+            href={mapLink}
             target="_blank"
             rel="noreferrer"
           >
-            {t("Request location", "Minta lokasi")}
+            {t("Open in Google Maps", "Buka di Google Maps")}
             <ArrowUpRight />
           </a>
         </div>
