@@ -118,7 +118,7 @@ export function About() {
       <section className="container future-note">
         <Leaf size={30} />
         <div>
-          <h3>Goodlife Birdnest</h3>
+          <h3>HOLYGOODNEST</h3>
           <p>
             {t(
               "Our future wellness product direction. Products are in development and are not offered for sale on this website.",

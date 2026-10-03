@@ -291,6 +291,7 @@ main:focus {
 .hero-shade {
   position: absolute;
   inset: 0;
+  pointer-events: none;
   background: linear-gradient(
     90deg,
     #0d3027 0%,
@@ -304,6 +305,27 @@ main:focus {
   position: relative;
   padding-top: 115px;
   padding-bottom: 55px;
+}
+.hero-video-toggle {
+  position: absolute;
+  z-index: 2;
+  right: max(24px, calc((100vw - 1280px) / 2));
+  bottom: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 15px;
+  border: 1px solid #ffffff66;
+  border-radius: 5px;
+  background: #10392e;
+  color: #fafbf7;
+  font-size: 11px;
+}
+.hero-photo.hero-video {
+  opacity: 1;
+}
+.hero-video-toggle:hover {
+  background: #245941;
 }
 .hero .eyebrow {
   color: #cfddc6;
@@ -377,11 +399,13 @@ main:focus {
   height: 465px;
   border-radius: 6px;
   overflow: hidden;
+  background: #f7f7f7;
 }
 .story-image img {
   height: 100%;
   width: 100%;
-  object-position: center 41%;
+  object-fit: contain;
+  object-position: center;
 }
 .story-copy p {
   max-width: 460px;

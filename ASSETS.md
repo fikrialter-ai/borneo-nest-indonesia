@@ -16,6 +16,13 @@ Photorealistic premium product catalog image of processed edible swiftlet bird n
 
 ## Supplied assets
 
+- bowl-bird-nest.jpeg: user-supplied ASET REIVISI/mangkok.jpeg, used for Premium Bowl Bird Nest product cards, detail page, and gallery.
+- yenping-kotak.jpeg: user-supplied ASET REIVISI/yenping kotak.jpeg, used for the new Square Yenping Bird Nest catalogue entry, detail page, and gallery. Grade and specifications are confirmed on inquiry.
+- bird-nest-lempengan.jpeg: user-supplied ASET REIVISI/LEMPENGAN.jpeg, used for the Broken / Mesh Bird Nest product cards, detail page, and gallery.
+- corner-bird-nest.jpeg: user-supplied ASET REIVISI/sudut.jpeg, used for Corner Bird Nest product cards, detail page, and gallery.
+- swiftlet-hero.mp4: user-supplied animated swiftlet illustration (5.875 seconds, 1152x768). Uses the valid copy in the project root; the same-named file in ASET REIVISI was empty. Used silently in the Home hero, with pause/resume and reduced-motion support.
+- swiftlet-hero-poster.webp: still frame extracted from that video for initial loading, playback failures, and reduced-motion preferences.
+- story-bird-nest.png: user-supplied photo of two cleaned bowl-shaped bird nests, used in the Home company story section.
 - logo.png: supplied logo akrilik.png, unchanged.
 - company-products.webp: image7.png in supplied company business-plan DOCX.
 - facility-development.webp: image6.png in the same document.

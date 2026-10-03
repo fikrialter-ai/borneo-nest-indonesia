@@ -229,7 +229,7 @@ export function Cta() {
 export function ProductCards() {
   const { t } = useText();
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-7 product-grid">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-7 product-grid">
       {products.map((p, i) => (
         <article className="product-card" key={p.slug}>
           <Link

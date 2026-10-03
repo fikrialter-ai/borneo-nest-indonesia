@@ -7,6 +7,7 @@ const routes = [
   "/products/premium-bowl",
   "/products/corner",
   "/products/broken-mesh",
+  "/products/yenping-kotak",
   "/process",
   "/quality",
   "/sustainability",

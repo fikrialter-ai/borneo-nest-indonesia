@@ -3,7 +3,7 @@ export const products = [
     slug: "premium-bowl",
     name: ["Premium Bowl Bird Nest", "Sarang Walet Mangkok Premium"],
     grade: ["Premium", "Premium"],
-    image: "bowl.webp",
+    image: "bowl-bird-nest.jpeg",
     description: [
       "Whole bowl-shaped bird nest, selected for its intact form, delicate texture and refined appearance.",
       "Sarang walet berbentuk mangkok utuh, dipilih berdasarkan keutuhan bentuk, tekstur halus, dan tampilannya.",
@@ -25,7 +25,7 @@ export const products = [
     slug: "corner",
     name: ["Corner Bird Nest", "Sarang Walet Sudut"],
     grade: ["Premium / Standard", "Premium / Standar"],
-    image: "corner.webp",
+    image: "corner-bird-nest.jpeg",
     description: [
       "Naturally formed in the corners of swiftlet houses. Carefully cleaned and graded with attention to its distinctive shape.",
       "Terbentuk alami pada sudut rumah walet. Dibersihkan dan dikelompokkan dengan memperhatikan bentuknya yang khas.",
@@ -47,7 +47,7 @@ export const products = [
     slug: "broken-mesh",
     name: ["Broken / Mesh Bird Nest", "Sarang Walet Patahan / Mesh"],
     grade: ["Processed", "Olahan"],
-    image: "mesh.webp",
+    image: "bird-nest-lempengan.jpeg",
     description: [
       "Cleaned bird nest pieces and strands for flexible processing applications, with grading tailored to the intended use.",
       "Potongan dan serat sarang walet bersih untuk berbagai kebutuhan pengolahan, dengan grading sesuai penggunaannya.",
@@ -60,6 +60,28 @@ export const products = [
     use: [
       "For food businesses and further processing.",
       "Untuk bisnis pangan dan pengolahan lanjutan.",
+    ],
+  },
+  {
+    slug: "yenping-kotak",
+    name: ["Square Yenping Bird Nest", "Sarang Walet Yenping Kotak"],
+    grade: ["Grade on inquiry", "Grade dikonfirmasi"],
+    image: "yenping-kotak.jpeg",
+    description: [
+      "Bird nest presented in a square format. Contact our team for available grades, batch details and packaging options.",
+      "Sarang walet dalam bentuk kotak. Hubungi tim kami untuk informasi grade yang tersedia, detail batch, dan pilihan kemasan.",
+    ],
+    features: [
+      ["Square-shaped presentation", "Penyajian berbentuk kotak"],
+      ["Visible bird nest strands", "Serat sarang walet yang terlihat"],
+      [
+        "Specifications confirmed per order",
+        "Spesifikasi dikonfirmasi per pesanan",
+      ],
+    ],
+    use: [
+      "Discuss your intended use, quantity and packaging requirements with our team.",
+      "Diskusikan tujuan penggunaan, jumlah, dan kebutuhan kemasan bersama tim kami.",
     ],
   },
 ];
@@ -171,22 +193,28 @@ export const faqs = [
 ];
 export const gallery = [
   {
-    image: "bowl.webp",
+    image: "bowl-bird-nest.jpeg",
     category: "products",
     title: ["Premium bowl bird nest", "Sarang walet mangkok premium"],
-    note: ["Illustrative product image", "Ilustrasi produk"],
+    note: ["Supplied product photo", "Foto produk yang diberikan"],
   },
   {
-    image: "corner.webp",
+    image: "corner-bird-nest.jpeg",
     category: "products",
     title: ["Corner bird nest", "Sarang walet sudut"],
-    note: ["Illustrative product image", "Ilustrasi produk"],
+    note: ["Supplied product photo", "Foto produk yang diberikan"],
   },
   {
-    image: "mesh.webp",
+    image: "bird-nest-lempengan.jpeg",
     category: "products",
     title: ["Broken and mesh bird nest", "Sarang walet patahan dan mesh"],
-    note: ["Illustrative product image", "Ilustrasi produk"],
+    note: ["Supplied product photo", "Foto produk yang diberikan"],
+  },
+  {
+    image: "yenping-kotak.jpeg",
+    category: "products",
+    title: ["Square Yenping bird nest", "Sarang walet Yenping kotak"],
+    note: ["Supplied product photo", "Foto produk yang diberikan"],
   },
   {
     image: "company-products.webp",

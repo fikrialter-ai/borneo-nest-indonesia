@@ -11,6 +11,7 @@ import {
 } from "@phosphor-icons/react";
 import { useText, Picture, Button, Cta, ProductCards, Faq } from "./components";
 import { steps } from "./data";
+import HeroVideo from "./HeroVideo";
 export default function Home() {
   const { t } = useText();
   const trust = [
@@ -22,15 +23,7 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <Picture
-          name="bowl.webp"
-          alt={t(
-            "Illustrative still life of premium edible bird nests",
-            "Ilustrasi sarang walet premium",
-          )}
-          className="hero-photo"
-          eager
-        />
+        <HeroVideo />
         <div className="hero-shade" />
         <div className="container hero-content">
           <span className="eyebrow">
@@ -75,10 +68,10 @@ export default function Home() {
       <section className="section container story-section">
         <div className="story-image">
           <Picture
-            name="company-products.webp"
+            name="story-bird-nest.png"
             alt={t(
-              "Bird nest products from company materials",
-              "Produk sarang walet dari materi perusahaan",
+              "Two cleaned bowl-shaped bird nests",
+              "Dua sarang walet mangkok yang telah dibersihkan",
             )}
           />
         </div>
