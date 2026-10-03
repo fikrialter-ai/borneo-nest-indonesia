@@ -716,6 +716,8 @@ footer svg {
 .about-feature > img {
   width: 100%;
   height: 460px;
+  object-fit: contain;
+  background: #f7f7f7;
   border-radius: 7px;
 }
 .check-list {

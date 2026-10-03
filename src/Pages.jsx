@@ -36,8 +36,11 @@ export function About() {
       />
       <section className="container about-feature">
         <Picture
-          name="company-products.webp"
-          alt={t("Borneo Nest product selection", "Pilihan produk Borneo Nest")}
+          name="story-bird-nest.png"
+          alt={t(
+            "Two cleaned bowl-shaped bird nests",
+            "Dua sarang walet mangkok yang telah dibersihkan",
+          )}
         />
         <div>
           <h2>

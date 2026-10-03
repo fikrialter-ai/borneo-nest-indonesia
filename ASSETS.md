@@ -22,7 +22,7 @@ Photorealistic premium product catalog image of processed edible swiftlet bird n
 - corner-bird-nest.jpeg: user-supplied ASET REIVISI/sudut.jpeg, used for Corner Bird Nest product cards, detail page, and gallery.
 - swiftlet-hero.mp4: user-supplied animated swiftlet illustration (5.875 seconds, 1152x768). Uses the valid copy in the project root; the same-named file in ASET REIVISI was empty. Used silently in the Home hero, with pause/resume and reduced-motion support.
 - swiftlet-hero-poster.webp: still frame extracted from that video for initial loading, playback failures, and reduced-motion preferences.
-- story-bird-nest.png: user-supplied photo of two cleaned bowl-shaped bird nests, used in the Home company story section.
+- story-bird-nest.png: user-supplied photo of two cleaned bowl-shaped bird nests, used in the Home company story section and About company feature.
 - logo.png: supplied logo akrilik.png, unchanged.
 - company-products.webp: image7.png in supplied company business-plan DOCX.
 - facility-development.webp: image6.png in the same document.
